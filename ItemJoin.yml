@@ -1,0 +1,32 @@
+#
+#Item On join Example
+#
+#Items:
+#  Enable: false
+#  Lock: false
+#  slots: 
+#    0:
+#      display: '&aDisplay'
+#      item: '2:0:1' (id:data:amount)
+#      lore:
+#      - '&alore' (support placeholder api)
+#      onclick: 'console:say 1' (none, player, console)
+#    1:
+#      display: '&aSkull'
+#      item: '397:3:1:%player%' (id:data:amount:playername)
+#      lore:
+#      - '&alore'
+#      onclick: 'none'(none, player, console)
+#    5:
+#      display: '&bDiamond Blocks'
+#      item: '57:0:64'
+#      lore:
+#      - '&alore'
+#      onclick: 'console:say hi %player%'
+Items:
+  Enable: false
+  Lock: false
+  PermissionMoveItem: nodamage.allow.lock
+  Cooldown: -1
+  CooldownMessage: '&cwait &b%cooldown% &cseconds!'
+  slots: {}

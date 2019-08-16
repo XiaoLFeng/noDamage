@@ -1,0 +1,9 @@
+name: noDamage
+main: com.poompk.noDamage.Main
+version: 2.2
+author: poompk
+softdepend: [PlaceholderAPI,ProtocolLib]
+commands:
+    nodamage:
+        aliases: [ndmg]
+        description: help menu!

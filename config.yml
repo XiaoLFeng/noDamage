@@ -1,0 +1,85 @@
+JoinGame:
+  JoinMessage: none
+  QuitMessage: none
+  WalkSpeed:
+    Enable: false
+    Speed: 0.7f
+  WelcomeMessage:
+    Enable: true
+    Message:
+    - none
+donthaveperm: "&cYou don't have permission!"
+PreventPlayers:
+  ClearItemsJoin: false
+  ClearEffectsJoin: false
+  Explode: true
+  JumpWheat: true
+  DefaultGamemode:
+    Enable: false
+    Mode: adventure
+  BadWeather:
+    Enable: true
+    Worlds: {}
+  Damage:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.damage
+    Worlds: {}
+  Hunger:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.hunger
+    Worlds: {}
+  Fall:
+    Enable: true
+    locY: -7
+    Worlds: {}
+  Crafting:
+    Enable: false
+    PermissionEnable: true
+    Permission: nodamge.allow.crafting
+    Worlds: {}
+  BlockPlace:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.place
+    Worlds: {}
+  ItemDrop:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.drop
+    Worlds: {}
+  PickupItems:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.pickup
+    Worlds: {}
+  Commands:
+    Enable: false
+    PermissionEnable: true
+    Permission: nodamge.allow.commands
+    Message: "&cyou don't have permission!"
+    List: {}
+  ClickBlocks:
+    Enable: true
+    PermissionEnable: true
+    Permission: nodamge.allow.clickblock
+    Worlds: {}
+    Blocks: {}
+  CreatureSpawn:
+    Snowman: false
+    Irongolem: false
+    Wither: false
+    all: false
+Spawn:
+  Enable: true
+  ForceSpawnOnJoin: false
+  Firework:
+    Enable: true
+    Amount: 1
+    PermissionEnable: true
+    Permission: nodamage.firework
+  CommandEnable: true
+  CustomCommand: spawn
+  Message: 'none'
+  loc: {}
